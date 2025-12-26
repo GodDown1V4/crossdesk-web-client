@@ -22,10 +22,10 @@ const elements = {
 
 // Config section (can be overridden by setting window.CROSSDESK_CONFIG before this script runs)
 const DEFAULT_CONFIG = {
-  signalingUrl: "wss://crossdesk.nas.cumtbwd.top:19099",
+  signalingUrl: "wss://crossdesk1.nas.cumtbwd.top:23456",
   iceServers: [
-    { urls: ["stun:crossdesk.nas.cumtbwd.top:3478"] },
-    { urls: ["turn:crossdesk.nas.cumtbwd.top:3478"], username: "crossdesk", credential: "crossdeskpw" },
+    { urls: ["stun:crossdesk2.nas.cumtbwd.top:23456"] },
+    { urls: ["turn:crossdesk2.nas.cumtbwd.top:23456"], username: "crossdesk", credential: "crossdeskpw" },
   ],
   heartbeatIntervalMs: 3000,
   heartbeatTimeoutMs: 10000,
